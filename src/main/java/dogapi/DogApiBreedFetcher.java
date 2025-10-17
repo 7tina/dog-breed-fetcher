@@ -48,7 +48,7 @@ public class DogApiBreedFetcher implements BreedFetcher {
 
             for (int i = 0; i < subBreedsArray.length(); i++) {
                 subBreeds.add(subBreedsArray.getString(i));
-            }
+            } //loop
 
             return subBreeds;
 
